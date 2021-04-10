@@ -46,3 +46,8 @@ What's Not Working/Partially working:
 | Fingerprint |  |
 
 
+Note:
+- You can use [GenSMBIOS] to generate SMBIOS. 
+
+
+[GenSMBIOS]: <https://github.com/corpnewt/GenSMBIOS>

@@ -50,4 +50,12 @@ Note:
 - You can use [GenSMBIOS] to generate SMBIOS. 
 
 
+
+Usefull Link and Credits:
+- [OpenCore Install Guide]: this is starting point if you want to install Hackintosh using OpenCore.
+- [Olarila]: If you want to download Mac Os Vanilla image without having Mac.
+
+
 [GenSMBIOS]: <https://github.com/corpnewt/GenSMBIOS>
+[OpenCore Install Guide]: <https://dortania.github.io/OpenCore-Install-Guide/>
+[Olarila]: <https://www.olarila.com>

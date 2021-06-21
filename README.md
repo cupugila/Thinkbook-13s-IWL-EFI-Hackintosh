@@ -9,7 +9,7 @@ So, I created this repository to share my OpenCore configuration on Lenovo Think
 MacOs Version:
 MacOS Big Sur
 
-OpenCore Version: 0.6.7
+OpenCore Version: 0.6.8
 
 
 Laptop Specifications:
@@ -26,15 +26,16 @@ What's Working:
 | Name | Comment |
 | ------ | ------ |
 | Graphics Acceleration |  |
-| Trackpad | Gesture enabled. Using VoodooI2CHID. Please enable Intel SGX on boot option. |
-| Keyboard | You must press fn to use F1-F12 key. Shortcut key for volume up and volume down is working. |
+| Trackpad | Gesture enabled. Using VoodooI2CHID. |
+| Keyboard | Almost all shortcut key work |
 | Internal Speaker |  |
 | Internal Microphone |  |
-| Headphone jack | line in not tested yet |
-| USB Type-A | Type-C port not tested |
+| Headphone jack | Audio line-in not tested yet |
+| USB Type-A |  |
+| USB Type-C | tested with USB type C hub |
 | Camera | |
 | Battery Indicator | |
-| Brightness | Change brightness from control center. Keyboard shortcut F11 & F12 is not working. |
+| Brightness | Keyboard shortcut is working |
 | Wifi | |
 | Bluetooth | |
 | HDMI | |
@@ -44,6 +45,10 @@ What's Not Working/Partially working:
 | ------ | ------ |
 | Sleep | Close lid to sleep not working. You must do Sleep manually then close the lid. If the lid's open the machine will wake up after several seconds. |
 | Fingerprint |  |
+
+Bug:
+- Sometimes if you enable "Turn display off after:", the display won't turn on and you need to force shutdown. Workaround, set "Turn display off after:" to never, and set screensaver instead.
+![image](https://user-images.githubusercontent.com/61957197/122768522-e1010080-d2cd-11eb-8d9e-00279d337d2d.png)
 
 
 Note:

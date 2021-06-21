@@ -52,7 +52,8 @@ Bug:
 
 
 Note:
-- You can use [GenSMBIOS] to generate SMBIOS. 
+- You can use [GenSMBIOS] to generate SMBIOS.
+- Use [ProperTree] to edit config.plist.
 
 
 
@@ -66,6 +67,7 @@ Usefull Link and Credits:
 
 
 [GenSMBIOS]: <https://github.com/corpnewt/GenSMBIOS>
+[ProperTree]: <https://github.com/corpnewt/ProperTree> 
 [OpenCore Install Guide]: <https://dortania.github.io/OpenCore-Install-Guide/>
 [Olarila]: <https://www.olarila.com>
 [OpenIntelWireless]: <https://github.com/OpenIntelWireless>

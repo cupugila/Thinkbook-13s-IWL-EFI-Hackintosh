@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>DSDT.aml</string>
-				<key>Path</key>
-				<string>DSDT.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-AWAC.aml</string>
 				<key>Path</key>
 				<string>SSDT-AWAC.aml</string>
@@ -431,6 +423,24 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2CHID</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2CHID.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
 				<key>Arch</key>
 				<string>Any</string>
@@ -472,24 +482,6 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller_edit.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CHID</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VoodooI2CHID.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -616,6 +608,42 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>CpuTscSync.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ECEnabler</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>ECEnabler.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BrightnessKeys</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BrightnessKeys.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -1031,6 +1059,24 @@
 				<key>Path</key>
 				<string>OpenShell.efi</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ResetSystem.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Name</key>
+				<string>ResetSystem.efi</string>
+				<key>TextMode</key>
+				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>ResetSystem.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -1054,7 +1100,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 alcid=11 agdpmod=vit9696 igfxonln=1 forceRenderStandby=0 -igfxblr -wegnoegpu</string>
+				<string>debug=0x100 keepsyms=1 alcid=11 forceRenderStandby=0 -igfxblr agdpmod=vit9696</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1123,11 +1169,11 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02903500CDJP4FUE</string>
+			<string></string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -1135,9 +1181,9 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemSerialNumber</key>
-			<string>1234567890</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>00000000-0000-0000-0000-000000000000</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1164,6 +1210,21 @@
 			<integer>0</integer>
 			<key>MinVersion</key>
 			<integer>0</integer>
+		</dict>
+		<key>AppleInput</key>
+		<dict>
+			<key>AppleEvent</key>
+			<string>Builtin</string>
+			<key>CustomDelays</key>
+			<string>Auto</string>
+			<key>KeyInitialDelay</key>
+			<integer>0</integer>
+			<key>KeySubsequentDelay</key>
+			<integer>5</integer>
+			<key>PointerSpeedDiv</key>
+			<integer>1</integer>
+			<key>PointerSpeedMul</key>
+			<integer>1</integer>
 		</dict>
 		<key>Audio</key>
 		<dict>

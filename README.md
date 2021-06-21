@@ -36,7 +36,7 @@ What's Working:
 | Camera | |
 | Battery Indicator | |
 | Brightness | Keyboard shortcut is working |
-| Wifi | |
+| Wifi | using airportitlwm |
 | Bluetooth | |
 | HDMI | |
 
@@ -58,9 +58,17 @@ Note:
 
 Usefull Link and Credits:
 - [OpenCore Install Guide]: this is starting point if you want to install Hackintosh using OpenCore.
+- [Acidanthera]: for most of the kexts
 - [Olarila]: If you want to download Mac Os Vanilla image without having Mac.
+- [OpenIntelWireless]: for intel wifi & bluetooth kexts
+- [VoodooI2C]: Trackpad kexts
+- [ECEnabler]: for working battery status
 
 
 [GenSMBIOS]: <https://github.com/corpnewt/GenSMBIOS>
 [OpenCore Install Guide]: <https://dortania.github.io/OpenCore-Install-Guide/>
 [Olarila]: <https://www.olarila.com>
+[OpenIntelWireless]: <https://github.com/OpenIntelWireless>
+[Acidanthera]: <https://github.com/acidanthera>
+[VoodooI2C]: <https://github.com/VoodooI2C/VoodooI2C>
+[ECEnabler]: <https://github.com/1Revenger1/ECEnabler>

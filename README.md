@@ -1,6 +1,5 @@
 # Thinkbook13S-IWL-EFI-OpenCore
-Lenovo Thinkbook 13S OpenCore EFI for Hackintosh
-
+Lenovo Thinkbook 13s & 14s OpenCore EFI for Hackintosh
 
 Hello everyone.
 
@@ -11,6 +10,12 @@ MacOS Big Sur
 
 OpenCore Version: 0.6.8
 
+Tested machine:
+- Thinkbook 13s IWL (My current laptop)
+- Thinkbook 14s IWL (i5-8265U) (thanks to [ws839750375] for testing) 
+
+
+Below is machine spec that I use to test the EFI. If you have similar model and spec, this EFI should work for you.
 
 Laptop Specifications:
 | Hardware | Info |
@@ -74,3 +79,4 @@ Usefull Link and Credits:
 [Acidanthera]: <https://github.com/acidanthera>
 [VoodooI2C]: <https://github.com/VoodooI2C/VoodooI2C>
 [ECEnabler]: <https://github.com/1Revenger1/ECEnabler>
+[ws839750375]: <https://github.com/ws839750375>

@@ -8,7 +8,7 @@ So, I created this repository to share my OpenCore configuration on Lenovo Think
 MacOs Version:
 MacOS Big Sur
 
-OpenCore Version: 0.6.8
+OpenCore Version: 0.7.2
 
 Tested machine:
 - Thinkbook 13s IWL (My current laptop)
